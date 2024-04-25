@@ -1,11 +1,10 @@
-// social-media-linear-models
-
-
 // Define social media data
 const socialMediaData = [
     { platform_count: "Facebook, Twitter", avg_time: "Between 2 and 3 hours", age: 25, gender: "Male", self_image_1: 3, self_image_2: 4, self_image_3: 5, self_image_4: 4 },
     { platform_count: "Instagram", avg_time: "Between 3 and 4 hours", age: 30, gender: "Female", self_image_1: 4, self_image_2: 3, self_image_3: 5, self_image_4: 4 },
     // Add more data rows as needed
+    { platform_count: "Twitter, Instagram", avg_time: "Less than an Hour", age: 22, gender: "Female", self_image_1: 5, self_image_2: 5, self_image_3: 4, self_image_4: 3 },
+    { platform_count: "Facebook", avg_time: "Between 4 and 5 hours", age: 28, gender: "Male", self_image_1: 3, self_image_2: 2, self_image_3: 4, self_image_4: 3 },
 ];
 
 // Define world data (sample data)
@@ -13,6 +12,8 @@ const worldData = [
     { platform_count: "Twitter", avg_time: "Between 1 and 2 hours", age: 35, gender: "Male" },
     { platform_count: "Instagram, Facebook", avg_time: "Between 4 and 5 hours", age: 20, gender: "Female" },
     // Add more data rows as needed
+    { platform_count: "Facebook, Instagram", avg_time: "Between 2 and 3 hours", age: 40, gender: "Male" },
+    { platform_count: "Twitter", avg_time: "Between 3 and 4 hours", age: 26, gender: "Female" },
 ];
 
 // Function to count elements in a comma-separated string
